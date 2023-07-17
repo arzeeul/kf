@@ -13,7 +13,7 @@
                         <div class="col-auto mb-3">
                             <h1 class="page-header-title">
                                 <div class="page-header-icon"><i data-feather="user"></i></div>
-                                Pengguna - Informasi Akun
+                                Profile
                             </h1>
                         </div>
                     </div>
@@ -50,7 +50,7 @@
                         <div class="card-body text-center">
                             <!-- Profile picture image-->
                             @if ($user->profile != NULL)
-                                <img class="img-account-profile rounded-circle mb-2" src="{{ Storage::url($user->profile) }}" alt="" />
+                                <img class="img-account-profile rounded-circle mb-2" img width="150px" src="{{ asset('profile/'.$user->profile) }}" alt="" />
                             @else
                                 <img class="img-account-profile rounded-circle mb-2" src="https://ui-avatars.com/api/?name={{ $user->name }}" alt="" />
                             @endif

@@ -14,7 +14,8 @@ class BatchTracking extends Model
         'batch_id',
         'user_id',
         'keterangan',
-        'status'
+        'status',
+        'bukti'
     ];
 
     public function batch()

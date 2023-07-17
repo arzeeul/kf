@@ -48,7 +48,7 @@
                         <div class="card-body text-center">
                             <!-- Profile picture image-->
                             <?php if($user->profile != NULL): ?>
-                                <img class="img-account-profile rounded-circle mb-2" src="<?php echo e(Storage::url($user->profile)); ?>" alt="" />
+                                <img class="img-account-profile rounded-circle mb-2" img width="150px" src="<?php echo e(asset('profile/'.$user->profile)); ?>" alt="" />
                             <?php else: ?>
                                 <img class="img-account-profile rounded-circle mb-2" src="https://ui-avatars.com/api/?name=<?php echo e($user->name); ?>" alt="" />
                             <?php endif; ?>

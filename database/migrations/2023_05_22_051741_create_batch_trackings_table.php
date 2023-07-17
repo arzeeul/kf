@@ -19,6 +19,7 @@ class CreateBatchTrackingsTable extends Migration
             $table->unsignedBigInteger('user_id');
             $table->string('keterangan');
             $table->string('status');
+            $table->string('bukti');
             $table->timestamps();
 
 

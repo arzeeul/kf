@@ -19,7 +19,7 @@
                         <div class="col-12 col-xl-auto mb-3">
                             <a class="btn btn-sm btn-light text-primary" href="{{ route('batch') }}">
                                 <i class="me-1" data-feather="arrow-left"></i>
-                                Kembali ke Semua Pengguna
+                                Kembali ke Semua Batch
                             </a>
                         </div>
                     </div>
@@ -129,7 +129,7 @@
                                         </div>
                                     @enderror
                                 </div>
-                            
+
                                 <div class="mb-3 row">
                                     <label for="letter_file" class="col-sm-3 col-form-label"></label>
                                     <div class="col-sm-9">

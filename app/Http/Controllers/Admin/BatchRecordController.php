@@ -71,6 +71,7 @@ class BatchRecordController extends Controller
                     'user_id'  => Auth::user()->id,
                     'keterangan' => 'Admin telah mengaktifkan',
                     'status'   => 'Aktif',
+                    'bukti'=> ''
                 ]
             );
             return redirect()

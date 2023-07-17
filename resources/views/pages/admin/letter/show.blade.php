@@ -41,11 +41,11 @@
                                             <td>{{ $item->bets_no }}</td>
                                         </tr>
                                         <tr>
-                                            <th>Tanggal Arsip</th>
+                                            <th>Tanggal PO</th>
                                             <td>{{ $item->bets_date }}</td>
                                         </tr>
                                         <tr>
-                                            <th>Tanggal Diterima</th>
+                                            <th>Tanggal Arsip</th>
                                             <td>{{ $item->bets_received }}</td>
                                         </tr>
                                         <tr>

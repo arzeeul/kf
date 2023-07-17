@@ -41,7 +41,7 @@
                                             <td>{{ $item->bets_no }}</td>
                                         </tr>
                                         <tr>
-                                            <th>Tanggal Arsip</th>
+                                            <th>Tanggal PO</th>
                                             <td>{{ $item->bets_date }}</td>
                                         </tr>
                                         <tr>
@@ -70,10 +70,8 @@
                                 <div class="mb-3">
                                     <label for="">Pilih status</label>
                                     <input type="hidden" name="batch_id" value="{{ $item->id }}">
-                                    <select name="status" id="" class="form-control ">
+                                    <select name="status" id="" class="form-control" required>
                                         <option value="">Perbarui status</option>
-
-
                                         @can('Penimbangan')
                                             <option value="penimbangan">Penimbangan</option>
                                         @endcan
@@ -97,6 +95,11 @@
                                             <option value="selesai">Selesai</option>
                                         @endcan
                                     </select>
+                                    @error('status')
+                                    <div class="invalid-feedback">
+                                        {{ $message }}
+                                    </div>
+                                    @enderror
                                 </div>
                                 <div class="mb-3">
                                     <label for="">Keterangan</label>
@@ -104,7 +107,12 @@
                                 </div>
                                 <div class="mb-3">
                                     <label for="">Upload Foto Bukti</label>
-                                    <input type="file" name="foto" id="" class="form-control" capture="camera"  >
+                                    <input type="file" name="bukti" id="" class="form-control" required >
+                                    @error('foto')
+                                    <div class="invalid-feedback">
+                                        {{ $message }}
+                                    </div>
+                                    @enderror
                                 </div>
                                 <button class="btn btn-success btn-md pb-2 mt-3">Submit</button>
                             </form>
@@ -142,8 +150,8 @@
                                         <td>{{ $tracking->user->name }}</td>
                                         <td>{{ Carbon\Carbon::parse($tracking->created_at)->isoFormat('ll LT') }}</td>
                                         <td>
-                                            @if ($tracking->foto)
-                                            <img src="{{ Storage::url($tracking->foto) }}" alt="Foto Bukti" width="100">
+                                            @if ($tracking->bukti)
+                                            <img width="150px" src="{{ asset('Foto-bukti/'.$tracking->bukti) }}" alt="Foto Bukti">
                                         @else
                                             Tidak ada foto
                                         @endif

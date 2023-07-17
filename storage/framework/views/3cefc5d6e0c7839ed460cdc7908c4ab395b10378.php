@@ -74,8 +74,8 @@
                                             <td><?php echo e($item->bets_date); ?></td>
                                             <td><?php echo e($item->department->name); ?></td>
                                             <td><?php echo e($item->sender->name); ?></td>
-                                            <td><?php echo e($item->tracking->first()->user->name); ?></td>
-                                            <td><?php echo e($item->tracking->first()->status); ?></td>
+                                            <td><?php echo e($item->tracking->first() != null ? $item->tracking->first()->user->name : ''); ?></td>
+                                            <td><?php echo e($item->tracking->first()!= null ? $item->tracking->first()->status :''); ?></td>
                                             <td>
                                                 <a href="<?php echo e(route('batch.show', $item->id)); ?>"
                                                     class="btn btn-success btn-xs">

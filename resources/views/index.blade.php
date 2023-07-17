@@ -135,47 +135,47 @@
             <div class="portfolio-info">
               <h4>Bedak Marcks Classic 40 Gr  </h4>
               <p>Marcks</p>
-              <a href="admin/img/portfolio/bedak.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 1"><i class="bx bx-plus"></i></a>
+              <a href="admin/img/portfolio/bedak.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Bedak Marcks Classic 40 Gr"><i class="bx bx-plus"></i></a>
               <a href="https://instagram.com/marckscosmeticind?igshid=MzRlODBiNWFlZA==" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-img"><img src="admin/img/portfolio/MarcksTeen.jpg" class="img-fluid" alt=""></div>
+            <div class="portfolio-img"><img src="admin/img/portfolio/MarcksTeen.JPG" class="img-fluid" alt=""></div>
             <div class="portfolio-info">
               <h4>Bedak Marcks Teen Compact</h4>
               <p>Marcks Teen</p>
-              <a href="admin/img/portfolio/bedakCC.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
+              <a href="admin/img/portfolio/MarcksTeen.JPG" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Bedak Marcks Teen Compact"><i class="bx bx-plus"></i></a>
               <a href="https://instagram.com/marcksteensind?igshid=MzRlODBiNWFlZA==portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-img"><img src="admin/img/portfolio/Marcks20.jpg" class="img-fluid" alt=""></div>
+            <div class="portfolio-img"><img src="admin/img/portfolio/Marcks20.JPG" class="img-fluid" alt=""></div>
             <div class="portfolio-info">
               <h4>Bedak Marcks Active 20 Gr</h4>
               <p>Marcks</p>
-              <a href="admin/img/portfolio/portfolio-3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 2"><i class="bx bx-plus"></i></a>
+              <a href="admin/img/portfolio/Marcks20.JPG" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Bedak Marcks Active 20 Gr"><i class="bx bx-plus"></i></a>
               <a href="https://instagram.com/marcksteensind?igshid=MzRlODBiNWFlZA==" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <div class="portfolio-img"><img src="admin/img/portfolio/MVCushion.jpg" class="img-fluid" alt=""></div>
+            <div class="portfolio-img"><img src="admin/img/portfolio/MVCushion.JPG" class="img-fluid" alt=""></div>
             <div class="portfolio-info">
               <h4>Marcks Venus Cushion</h4>
               <p>Venus Cosmetic</p>
-              <a href="admin/img/portfolio/portfolio-4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 2"><i class="bx bx-plus"></i></a>
+              <a href="admin/img/portfolio/MVCushion.JPG" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Marcks Venus Cushion"><i class="bx bx-plus"></i></a>
               <a href="https://instagram.com/venuscosmeticind?igshid=MzRlODBiNWFlZA==" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-img"><img src="admin/img/portfolio/micellar.jpg" class="img-fluid" alt=""></div>
+            <div class="portfolio-img"><img src="admin/img/portfolio/micellar.JPG" class="img-fluid" alt=""></div>
             <div class="portfolio-info">
               <h4>Marcks Teen Micellar Water 100ml dan 250ml</h4>
               <p>Marcks Teen</p>
-              <a href="admin/img/portfolio/micellar" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 2"><i class="bx bx-plus"></i></a>
+              <a href="admin/img/portfolio/micellar.JPG" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Marcks Teen Micellar Water 100ml dan 250ml"><i class="bx bx-plus"></i></a>
               <a href="https://instagram.com/marcksteensind?igshid=MzRlODBiNWFlZA==" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
             </div>
           </div>
@@ -185,27 +185,27 @@
             <div class="portfolio-info">
               <h4>Marcks CC Cake Powder</h4>
               <p>Marcks</p>
-              <a href="admin/img/portfolio/bedakCC" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 3"><i class="bx bx-plus"></i></a>
+              <a href="admin/img/portfolio/bedakCC.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="AMarcks CC Cake Powder"><i class="bx bx-plus"></i></a>
               <a href="https://instagram.com/marcksteensind?igshid=MzRlODBiNWFlZA==" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <div class="portfolio-img"><img src="admin/img/portfolio/TWCake.jpg" class="img-fluid" alt=""></div>
+            <div class="portfolio-img"><img src="admin/img/portfolio/TWCake.JPG" class="img-fluid" alt=""></div>
             <div class="portfolio-info">
               <h4>Marcks Venus Two Way Cake</h4>
               <p>Venus Cosmetics</p>
-              <a href="admin/img/portfolio/portfolio-7.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 1"><i class="bx bx-plus"></i></a>
+              <a href="admin/img/portfolio/TWCake.JPG" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Marcks Venus Two Way Cake"><i class="bx bx-plus"></i></a>
               <a href="https://instagram.com/venuscosmeticind?igshid=MzRlODBiNWFlZA==" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <div class="portfolio-img"><img src="admin/img/portfolio/Velve.jpg" class="img-fluid" alt=""></div>
+            <div class="portfolio-img"><img src="admin/img/portfolio/Velve.JPG" class="img-fluid" alt=""></div>
             <div class="portfolio-info">
               <h4>Marcks Venus Velvet Matte</h4>
               <p>Venus Cosmetics</p>
-              <a href="admin/img/portfolio/portfolio-8.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 3"><i class="bx bx-plus"></i></a>
+              <a href="admin/img/portfolio/Velve.JPG" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Marcks Venus Velvet Matte"><i class="bx bx-plus"></i></a>
               <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
             </div>
           </div>

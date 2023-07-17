@@ -96,7 +96,8 @@ class SettingController extends Controller
         if ($request->hasFile('profile')) {
             $profileImage = $request->file('profile');
             $imageName = time() . '.' . $profileImage->getClientOriginalExtension();
-            $profileImage->move(public_path('profile'), $imageName);
+           $profileImage->storeAs('public/profile', $imageName);
+
 
             $item->profile = $imageName;
         }

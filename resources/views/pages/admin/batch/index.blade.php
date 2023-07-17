@@ -75,8 +75,8 @@
                                             <td>{{ $item->bets_date }}</td>
                                             <td>{{ $item->department->name }}</td>
                                             <td>{{ $item->sender->name }}</td>
-                                            <td>{{ $item->tracking->first()->user->name }}</td>
-                                            <td>{{ $item->tracking->first()->status }}</td>
+                                            <td>{{$item->tracking->first() != null ? $item->tracking->first()->user->name : '' }}</td>
+                                            <td>{{ $item->tracking->first()!= null ? $item->tracking->first()->status :'' }}</td>
                                             <td>
                                                 <a href="{{ route('batch.show', $item->id) }}"
                                                     class="btn btn-success btn-xs">

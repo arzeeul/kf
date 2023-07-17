@@ -68,10 +68,8 @@
                                 <div class="mb-3">
                                     <label for="">Pilih status</label>
                                     <input type="hidden" name="batch_id" value="<?php echo e($item->id); ?>">
-                                    <select name="status" id="" class="form-control ">
+                                    <select name="status" id="" class="form-control" required>
                                         <option value="">Perbarui status</option>
-
-
                                         <?php if (app(\Illuminate\Contracts\Auth\Access\Gate::class)->check('Penimbangan')): ?>
                                             <option value="penimbangan">Penimbangan</option>
                                         <?php endif; ?>
@@ -95,6 +93,19 @@
                                             <option value="selesai">Selesai</option>
                                         <?php endif; ?>
                                     </select>
+                                    <?php $__errorArgs = ['status'];
+$__bag = $errors->getBag($__errorArgs[1] ?? 'default');
+if ($__bag->has($__errorArgs[0])) :
+if (isset($message)) { $__messageOriginal = $message; }
+$message = $__bag->first($__errorArgs[0]); ?>
+                                    <div class="invalid-feedback">
+                                        <?php echo e($message); ?>
+
+                                    </div>
+                                    <?php unset($message);
+if (isset($__messageOriginal)) { $message = $__messageOriginal; }
+endif;
+unset($__errorArgs, $__bag); ?>
                                 </div>
                                 <div class="mb-3">
                                     <label for="">Keterangan</label>
@@ -102,7 +113,20 @@
                                 </div>
                                 <div class="mb-3">
                                     <label for="">Upload Foto Bukti</label>
-                                    <input type="file" name="foto" id="" class="form-control" capture="camera"  >
+                                    <input type="file" name="bukti" id="" class="form-control" capture="camera"  >
+                                    <?php $__errorArgs = ['foto'];
+$__bag = $errors->getBag($__errorArgs[1] ?? 'default');
+if ($__bag->has($__errorArgs[0])) :
+if (isset($message)) { $__messageOriginal = $message; }
+$message = $__bag->first($__errorArgs[0]); ?>
+                                    <div class="invalid-feedback">
+                                        <?php echo e($message); ?>
+
+                                    </div>
+                                    <?php unset($message);
+if (isset($__messageOriginal)) { $message = $__messageOriginal; }
+endif;
+unset($__errorArgs, $__bag); ?>
                                 </div>
                                 <button class="btn btn-success btn-md pb-2 mt-3">Submit</button>
                             </form>
@@ -140,8 +164,8 @@
                                         <td><?php echo e($tracking->user->name); ?></td>
                                         <td><?php echo e(Carbon\Carbon::parse($tracking->created_at)->isoFormat('ll LT')); ?></td>
                                         <td>
-                                            <?php if($tracking->foto): ?>
-                                            <img src="<?php echo e(Storage::url($tracking->foto)); ?>" alt="Foto Bukti" width="100">
+                                            <?php if($tracking->bukti): ?>
+                                            <img width="150px" src="<?php echo e(asset('Foto-bukti/'.$tracking->bukti)); ?>" alt="Foto Bukti">
                                         <?php else: ?>
                                             Tidak ada foto
                                         <?php endif; ?>
